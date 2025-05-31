@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Portfolio Details - MPL Indonesia Team</title>
+    <title>Portfolio Details - Restaurant App</title>
     <meta content="" name="description">
-    <meta content="android, mpl, evos, mobile legends, rrq" name="keywords">
+    <meta content="" name="keywords">
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
@@ -48,11 +48,11 @@
             <div class="row">
 
                 <div class="col-lg-8">
-                    <h2 class="portfolio-title">MPL Indonesia Team</h2>
+                    <h2 class="portfolio-title">Restaurant App</h2>
 
                     <div class="portfolio-details-slider swiper">
                         <div class="swiper-wrapper align-items-center">
-                            <img src="assets/img/portfolio/mpl-id-team.png" alt="">
+                            <img src="assets/img/portfolio/restaurant-app.png" alt="">
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -62,19 +62,43 @@
                 <div class="col-lg-4 portfolio-info">
                     <h3>Project information</h3>
                     <ul>
-                        <li><strong>Category</strong>: Android App</li>
-                        <li><strong>Project date</strong>: Sep 2, 2023</li>
+                        <li><strong>Category</strong>: Flutter</li>
+                        <li><strong>Project date</strong>: Dec 3, 2024</li>
                         <li><strong>Project URL</strong>: <a
-                                href="https://drive.google.com/file/d/13SPP3wcll5KRavN3j9QsUo5S2S52ZFJ0/view?usp=sharing"
-                                target="_blank">Google Drive</a></li>
+                                href="https://github.com/fikrihandy/restaurant_app"
+                                target="_blank">GitHub</a></li>
                     </ul>
 
                     <p>
-                        The first native Android app I developed. Applying basic concepts in app development. Features
-                        in this application include displaying images and information in List format, displaying a
-                        detail page when one of the items is pressed and displaying relevant images and information on
-                        the detail page.
+                        A modern mobile application built with Flutter for browsing and managing favorite restaurants.
+                        This app interacts with a RESTful API to display a list of restaurants and detailed restaurant
+                        information, including menus. It features:
                     </p>
+
+                    <ul>
+                        <li><strong>Restaurant List & Details:</strong> Displays essential info (name, image, city,
+                            rating) and full details (description, address, menus) fetched from a public API.
+                        </li>
+                        <li><strong>Favorites Page:</strong> Allows users to save and manage favorite restaurants using
+                            a local SQLite database, with full navigation to restaurant details.
+                        </li>
+                        <li><strong>Custom Themes:</strong> Implements both light and dark themes with custom font and
+                            color schemes. User preferences are saved using Shared Preferences and persist across
+                            sessions.
+                        </li>
+                        <li><strong>Daily Reminder Feature:</strong> Provides a scheduled notification at 11:00 AM to
+                            remind users about lunch, with toggle settings saved persistently.
+                        </li>
+                        <li><strong>Loading Indicators:</strong> Smooth user experience with visual indicators during
+                            API calls.
+                        </li>
+                        <li><strong>State Management:</strong> Utilizes the Provider package and sealed classes to
+                            manage state efficiently throughout the app.
+                        </li>
+                        <li><strong>Testing:</strong> Includes unit testing for data-fetching logic, covering initial
+                            state, success, and error scenarios.
+                        </li>
+                    </ul>
                 </div>
 
             </div>
